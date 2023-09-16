@@ -1,4 +1,4 @@
-# Python Note
+# Python Notes
 
 ## printing with various format placeholders
 
