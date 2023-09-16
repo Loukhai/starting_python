@@ -6,6 +6,10 @@ def islower(c):
         return False
 
 
+islower("r")
+islower("R")
+
+
 def isupper(c):
     if ord(c) >= 65 and ord(c) <= 90:
         return True
@@ -13,7 +17,22 @@ def isupper(c):
         return False
 
 
-islower("r")
-islower("R")
 isupper("R")
 isupper("r")
+
+
+def print_last_digit(number):
+    print(abs(number) % 10, end="")
+    return abs(number) % 10
+
+
+print_last_digit(109)
+
+
+def remove_char_at(str, n):
+    if n < 0:
+        return str
+    return str[:n] + str[n + 1 :]
+
+
+remove_char_at("rabia", 2)
